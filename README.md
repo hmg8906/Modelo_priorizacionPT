@@ -1,6 +1,6 @@
 # 🛰️ Priorización Espacial con `prioritizr` en R
 
-Este repositorio contiene un script en R para llevar a cabo una **priorización espacial de conservación** usando el paquete [`prioritizr`](https://prioritizr.net/). El análisis incorpora información espacial sobre áreas protegidas, beneficios económicos, huella humana y distribución potencial de *Tremarctos ornatus* (oso andino).
+Este repositorio contiene un script escalable en R para la implementación de un modelo de **priorización espacial de conservación** usando el paquete [`prioritizr`](https://prioritizr.net/). El análisis incorpora información espacial sobre áreas protegidas, costos de oportunidad (valor de unidades de planeación), IHEH y distribución potencial de las especies de interés, para este caso *Tremarctos ornatus* (oso andino). El área de interés corresponde al Complejo de páramos de Colombia y el objetivo de conservación de área se baja en la meta de tamaño de Población Mínimo Viable (PMV) 
 
 ## 📁 Estructura de Archivos
 
@@ -9,7 +9,7 @@ Prueba_Técnica_Asistente2/
 ├── output/                     # Carpeta de salida con resultados
 ├── Paramos/                   # Shapefile de complejos de páramos
 ├── Runap/                     # Shapefile de áreas protegidas
-├── Capa_costos/RASTER/        # Ráster de beneficios económicos
+├── Capa_costos/RASTER/        # Ráster de beneficios económicos por actividades agropecuarias (km2), costo de oportunidad
 ├── Huella_humana/             # Ráster de huella humana
 ├── Tremarctos_ornatus/        # Ráster de presencia del oso andino
 └── script.R                   # Script principal de análisis
