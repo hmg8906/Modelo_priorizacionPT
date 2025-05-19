@@ -1,6 +1,6 @@
-# 🛰️ Priorización Espacial con `prioritizr` en R
+# 🛰️Modelo de Áreas de Priorización para Conservación con `prioritizr` en R
 
-Este repositorio contiene un script escalable en R para la implementación de un modelo de **priorización espacial de conservación** usando el paquete [`prioritizr`](https://prioritizr.net/). El análisis incorpora información espacial sobre áreas protegidas, costos de oportunidad (valor de unidades de planeación), IHEH y distribución potencial de las especies de interés, para este caso *Tremarctos ornatus* (oso andino). El área de interés corresponde al Complejo de páramos de Colombia y el objetivo de conservación de área se baja en la meta de tamaño de Población Mínimo Viable (PMV) 
+Este repositorio contiene un script escalable en R para la implementación de un modelo de **priorización espacial de conservación** usando el paquete [`prioritizr`](https://prioritizr.net/). El análisis incorpora información espacial sobre áreas protegidas, costos de oportunidad (valor de unidades de planeación), IHEH y distribución potencial de las especies de interés, para este caso *Tremarctos ornatus* (oso andino). El área de interés corresponde al Complejo de páramos de Colombia y el objetivo de conservación de área se asa en la meta de tamaño de Población Mínimo Viable (PMV) 
 
 ## 📁 Estructura de Archivos
 
