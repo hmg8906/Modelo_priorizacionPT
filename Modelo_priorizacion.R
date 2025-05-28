@@ -116,7 +116,6 @@ tryCatch({
   message("🔧 Paso 8: Configurando modelo...")
   problema <- problem(cost_total, features = oso) |>
     add_max_cover_objective(budget = budget) |>
-    add_absolute_targets(global(oso, "sum", na.rm = TRUE)[[1]]) |>
     add_locked_in_constraints(protected_raster) |>
     add_linear_constraints(
       threshold = config$pmv_area,
@@ -166,7 +165,7 @@ tryCatch({
        col = "black")
   
   # Flecha del norte
-  north(xy = c(xmin(ext) + 0.05 * xrange, ymax(ext) - 0.15 * yrange),
+  north(xy = c(xmin(ext) + 0.05 * xrange, ymax(ext) - 0.20 * yrange),
         type = 2)
   
   # Leyenda
@@ -174,9 +173,9 @@ tryCatch({
          legend = c("No priorizado", "Priorizado"),
          fill = c("gray75", "#4daf4a"),
          title = NULL,
-         cex = 0.5,
+         cex = 0.3,
          bty = "n",
-         inset = 0.12)
+         inset = 0.15)
   
   # 8. Generar informe
   message("📊 Generando informe técnico...")
